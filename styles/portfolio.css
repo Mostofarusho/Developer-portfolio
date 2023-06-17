@@ -5,6 +5,9 @@
 .text-primary{
     color: #FD6E0A;
 }
+section{
+    margin-top: 130px;
+}
 /* Hearder and nevagation styles */
 .header{
     background-color:#FFF8F3 ;
@@ -113,4 +116,130 @@ font-size: 35px;
 .info-description{
     font-size: 15px;
     color: #474747;
+}
+
+/*What I do*/
+.I-do{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.I-do-title{
+    text-align: center;
+    margin: 30px;
+    font-weight: 700;
+  font-size: 35px;
+}
+.I-do-description{
+
+color: #757575;
+font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+.skills-container{
+    display: flex;
+    gap:24px;
+    justify-content: space-around;
+    background: #FFFFFF;
+
+}
+.skill{
+background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+.skill-title{
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+margin-bottom: 20px;
+margin-top:30px ;
+}
+.skill-description{
+ color: #757575;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+margin: 20px 20px;
+
+}
+/*Resume Section*/
+.section_title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.resume_title{
+font-weight: 200;
+font-size: 30px;
+color: #474747;
+margin-bottom: 10px;
+
+
+}
+.resume_degree{
+    color: #474747;
+    margin-bottom: 10px;
+
+  
+width: 405px;
+height: 34px;
+
+}
+.resume_description{
+    color: #757575;
+    margin-bottom: 10px;
+
+}
+
+.resume-content{
+    display: flex;
+    
+
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/*Conclusion*/
+.conclusion{
+    display: flex;
+    text-align: center;
+}
+.contact-title{
+    font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+}
+.contact-description{
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+}
+.icon{
+    margin-top: 20px;
+    display: flex;
+}
+.text{
+    background: #FFFFFF;
+border-radius: 5px;
+}
+.text{
+width: 461px;
+height: 64px;
+left: 909px;
+top: 3682px;
+}
+.submit{
+ width: 50px;
+height: 64px;
+
+background: #FD6E0A;
+border-radius: 5px;
+color: #FFFFFF;
 }
